@@ -27,10 +27,11 @@ h1{
     font-size: 6rem;
     text-transform: uppercase;
 }
-h2{
+.main-content h2{
     font-size: 5.5rem;
     text-align: center;
     margin-bottom: 5rem;
+    margin-top: 2rem;
 }
 h3{
     font-size: 5rem;
@@ -45,12 +46,37 @@ h5{
     
 }
 h6{
-    font-size: 3.5rem;
-    
+    font-size: 2.3rem;
+    color: rgb(49, 47, 47);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: black;
 }
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style: disc;
+    padding-left: 2em;
+    color: rgb(65, 61, 61);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: var(--primary-color);
+    color: #fff;
 }
 
 video {
@@ -153,4 +179,27 @@ video {
     width: 640px;
     height: 360px;
     margin-left: 12rem;
+}
+
+
+
+
+
+.texto2 h2 {
+    color: #14a01f;
+    font-size: 5.5rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.texto2 p {
+    margin-bottom: 5rem;
+}
+
+.texto2 section {
+    margin: 2em;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
